@@ -1,0 +1,79 @@
+  $first-color : #76ACAE;
+  $second-color : #C7ACCF;
+  $third-color : rgba(245, 245, 245, 0.733);
+
+  body {
+    background-color: $first-color;
+    font-family: 'Times New Roman', serif;
+  }
+
+  .list-group {
+    width: auto;
+    max-height: 500px;
+    min-height: 500px;
+    overflow-y: scroll;
+    overflow:auto;
+  }
+
+  .container {
+    width: 40%;
+    display: block;
+  }
+
+  .card {
+    background-color: $second-color;
+  }
+
+  .card-header, .card-footer{
+    background-color: $second-color;
+    font-family: Georgia, serif;
+    border-color: $first-color;
+  }
+  
+  .list-group-item {
+    margin-bottom: 5px;
+    background-color: $third-color;
+    margin-right: 10px;
+    border: thistle solid 2px;
+    border-radius: 2px;
+  }
+  
+  .shoppingItem {
+    overflow-y: scroll;
+    overflow:auto;
+    max-height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-right: 5px;
+  }
+
+  .block {
+    width: 45%;
+    padding: 5px 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .alert {
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    color: saddlebrown;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
