@@ -1,6 +1,6 @@
 # shopping-list-react
 
-# alimyogurtcu.github.io/shopping-list-app/
+# https://alimyogurtcu.github.io/projects/shopping-list-app/
 A simple shopping list application.
 
 ![shopping-list-app](https://user-images.githubusercontent.com/50144617/145710294-e83521e2-e00b-4608-80f5-67b577987563.png)
